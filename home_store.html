@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400&display=swap">
+
+<style>
+
+@media (max-width:1600px) {
+
+.main_title_container {
+
+    transform: translate(-620px, -241px) !important;
+
+}
+
+}
+
+@media (max-width:1300px) {
+
+.main_title_container {
+
+    transform: translate(-594px, -166px) !important;
+
+}
+
+}
+
+@media (max-width:1100px) {
+
+
+.main_title_container {
+
+    transform: translate(-478px, -156px) !important; 
+
+}
+
+.main_title {
+
+font-size: 72px !important;
+
+}
+
+.main_paragraph {
+
+font-size: 16px !important;
+
+}
+
+.button {
+
+width: 420px !important;
+
+}
+
+}
+
+
+
+
+@media (min-width:993px) {
+
+.main_photo_container_mobile {
+
+    display: none !important;
+}
+}
+
+@media (min-width:993px) {
+
+.main_photo_container_mobile {
+
+
+
+}
+
+.main_title_mobile {
+
+display: none !important;
+
+}
+
+}
+
+@media (max-width:992px) {
+
+.main_title_container_mobile {
+
+width: 100% !important;
+
+
+}
+
+.main_photo_container {
+
+display: none !important;
+
+}
+
+.navbar_container {
+
+width: 100% !important;
+
+}
+
+.navbar_container_1 {
+
+width: 100% !important;
+
+}
+
+.navbar_container_2 {
+
+display: none !important;
+
+}
+
+.main_photo {
+
+width: 100% !important;
+height: auto !important;
+
+}
+
+.search_icon {
+
+display: none !important;
+
+}
+
+.cart_icon {
+
+display: none !important;
+
+}
+
+.main_categories_container {
+
+flex-direction: column !important;
+margin-left: 24px !important;
+margin-right: 24px !important;
+
+
+
+}
+
+.categories_container_1 {
+
+flex-direction: row !important;
+width: 100% !important;
+height: auto !important;
+
+}
+
+.categories_container_2 {
+
+width: 100% !important;
+margin-left: 0px !important;
+margin-right: 24px !important;
+
+}
+
+.categories_container_3 {
+
+flex-direction: row !important;
+width: 100% !important;
+height: auto !important;
+
+}
+
+.photo_small {
+
+width: 50% !important;  
+height: auto !important;
+
+
+}
+
+.photo_big {
+
+width:100% !important;
+
+
+}
+
+.categories_photo_3 {
+
+width: 100% !important;
+margin-right: 24px !important;
+justify-content: center !important;
+
+}
+
+.main_title_container {
+
+justify-content: center !important;
+transform: translate(-353px, -134px) !important;
+}
+
+.main_title {
+
+font-size: 32px !important;
+
+}
+
+.main_paragraph {
+
+    font-size: 16px !important;
+    width: 299px !important;
+    margin-top: 16px !important;
+
+}
+
+.button {
+
+width: 288px !important;
+height: 35px !important;
+
+}
+
+.space_1 {
+
+height: 24px !important;
+
+}
+
+.yellow_background_container {
+
+flex-direction: column !important;
+height: auto !important;
+width: 100% !important;
+}
+
+.bestseller_container_2 {
+
+margin-top: 24px !important;
+margin-left: 24px !important;
+
+}
+
+.bestseller_container_1 {
+
+margin-left: 24px !important;
+margin-right: 24px !important;
+}
+
+.photo_bestseller_1 {
+
+width: 100% !important;
+height: auto !important;
+
+
+}
+
+.image_bestseller_1 {
+
+width: 100% !important;
+height: auto !important;
+
+
+}
+
+.photo_bestseller_2 {
+
+width: 100% !important;
+height: auto !important;
+
+}
+
+.image_bestseller_2 {
+
+width: 100% !important;
+height: auto !important;
+
+
+}
+
+.bestseller_container_2 {
+
+margin-right: 24px !important;
+
+}
+
+.bestseller_h1_1 {
+
+margin-top: 12px !important;
+
+}
+
+.categories_title {
+
+margin-left: 24px !important;
+margin-top: 48px !important;
+font-size: 24px !important;
+}
+
+.categories_paragraph {
+
+font-size: 16px !important;
+
+}
+
+.newsletter_container {
+
+flex-direction: column !important;
+align-items: center !important;
+width: 100% !important;
+
+}
+
+.footer {
+
+flex-direction: column !important;
+
+}
+
+.container_footer_2 {
+
+transform: translate(0px, 0px) !important;
+margin-left: 32px !important;
+margin-top: 48px !important;
+
+}
+
+.container_footer_3 {
+
+transform: translate(0px, 0px) !important;
+margin-left: 32px !important;
+margin-top: 48px !important;
+
+}
+
+.container_footer_4 {
+
+transform: translate(0px, 0px) !important;
+margin-left: 32px !important;
+margin-top: 48px !important;
+}
+
+.space_inner_footer {
+
+height: 16px !important;
+
+}
+
+}
+
+</style>
+
+
+</head>
+<body>
+
+<!--górna nawigacja-->
+
+<div class="navbar_container" style="display:flex;flex-direction:column;width:100%;background-color: white;z-index:9999;height:128px">
+
+    <div class="navbar_container_1" style="display:flex;background-color: black;height:64px">
+    
+    <div class="container_icons_1" style="display:flex;justify-content:flex-start;margin-top:20px">
+    <div class="menu_icon" style="margin-left:48px"><img src="photos/Menu.png"/></div>
+    <div class="search_icon" style="margin-left:48px"><img src="photos/Search.png"/></div>
+    </div>
+    
+    <div class="logo_container" style="display:flex;justify-content:center;width:100%">
+    <div class="logo"><img src="photos/Logo.png"/></div>
+    </div>
+    
+    <div class="container_icons_2" style="display:flex;justify-content:flex-end;margin-top:20px">
+    <div class="heart_icon" style="margin-right:48px"><img src="photos/Heart_white.png"/></div>
+    <div class="cart_icon" style="margin-right:48px"><img src="photos/Shopping Cart.png"/></div>
+    </div>
+    
+    </div>
+    
+    <div class="navbar_container_2" style="display:flex;height:64px;justify-content:flex-start;z-index:99999;width:100%">
+    
+    <div class="menu_label" style="font-family:Exo;font-size:16px;font-weight:600;margin-left:48px;margin-top:22px;">NEWS</div>
+    <div class="menu_label" style="font-family:Exo;font-size:16px;font-weight:400;margin-left:48px;margin-top:22px;">SERVICES</div>
+    <div class="menu_label" style="font-family:Exo;font-size:16px;font-weight:400;margin-left:48px;margin-top:22px;">ABOUT</div>
+    <div class="menu_label" style="font-family:Exo;font-size:16px;font-weight:400;margin-left:48px;margin-top:22px;">CONTACT</div>
+    
+    </div>
+    
+    <div style="height:1px;width:100%;background-color:#DFDFDF;"></div>
+    
+    </div>
+    
+    <!--koniec górnej nawigacji-->    
+
+<!--Główne zdjęcie-->
+
+<div class="main_photo_container" style="width:100%;display:flex;margin-top:-64px"><img class="main_photo" style="width:100%;flex-basis:100%" src="photos/main_photo_home.png"/>
+
+    <div class="main_title_container" style="display:flex;width:100%;justify-content: flex-start;transform: translate(-700px, -300px);">
+
+        <div style="display:flex;flex-direction: column;justify-content:flex-end;">
+        
+        <div class="main_title" style="font-family: Marcellus;font-size: 96px;font-weight: 400;width:600px">NEW COLLECTION</div>
+        
+        <div class="main_paragraph" style="font-family: Exo;font-size: 24px;font-weight: 300">Discover the latest gems from our latest collection</div>
+        
+        <div class="space_1" style="height:48px"></div>
+        
+        <div class="button" style="display:flex;width:447px;padding:12px 0px;justify-content:center;align-items:center;gap:10px;border-radius: 2px;border: 1px solid #0A0A0A;">
+        <div style="color:#0A0A0A;text-align: center;font-family: Exo;font-size: 24px;font-weight: 600;">See more</div>
+        </div>
+        
+        </div>
+        
+        </div>
+
+</div>
+
+
+<!--Główne zdjęcie wersja mobilna-->
+
+<div class="main_photo_container_mobile" style="width:100%;display:flex;margin-top:-64px;position: relative;"><img class="main_photo_mobile" style="width:100%;flex-basis:100%;height:80vh;object-fit:cover" src="photos/main_photo_mobile.png"/>
+
+
+
+    <div class="main_title_container_mobile" style="display:flex;width:100% !important;justify-content: center;position:absolute;
+    height: 100%;align-items:flex-end;z-index:9999">
+
+        <div style="display:flex;flex-direction: column;justify-content:center;position:relative;width:100%;align-items:center">
+
+        
+        <div class="mobile_background" style="width:100%;height:100%;background-color: #0A0A0A;opacity: 60%;z-index: 999;position:absolute"></div>
+
+
+        <div class="main_title_mobile" style="font-family: Marcellus;font-size: 64px;font-weight: 400;margin-bottom:24px;z-index: 9999;color: white;">NEW COLLECTION</div>
+        
+        <div class="main_paragraph_mobile" style="font-family: Exo;font-size: 20px;font-weight: 200;width:546px;z-index: 9999;color: white;">Discover the latest gems from our latest collection</div>
+        
+        <div class="space_1_mobile" style="height:48px"></div>
+        
+        <div class="button_mobile" style="margin-bottom:16px;z-index:9999;display:flex;width:546px;height:auto;padding:12px 0px;justify-content:center;align-items:center;gap:10px;border-radius:2px;border:1px solid white;">
+        <div style="color: white;text-align: center;font-family: Exo;font-size: 24px;font-weight: 600;z-index: 9999;">See more</div>
+        </div>
+        
+        </div>
+        
+        </div>
+
+    
+
+</div>
+
+<!--Koniec głównego zdjęcia w wersji mobilnej-->
+
+<!--Koniec głównego zdjęcia-->
+
+<div style="background-color: red;"></div>
+
+<style>
+
+    .categories_container {
+    
+        background-color: white;width:100%;display: flex;gap:12px;
+    
+    }
+    
+    .green {
+    
+    background-color: white;flex:3
+    
+    }
+    
+    .blue {
+    
+    background-color: white;flex:6;
+    
+    }
+    
+    
+    @media (max-width:992px) {
+    .categories_container {
+        flex-direction: column;
+    }
+    
+    .green {
+        flex-direction: row !important;
+    }
+        }
+    
+    </style>
+    
+    <!--Kategorie-->
+    <div class="categories_title" style="font-family:Marcellus;font-size:32px;font-weight:400;margin-left: 48px;margin-top:72px;margin-bottom:24px">Categories</div>
+    <div class="categories_container">
+    
+    <div class="green" style="display: flex;flex-direction: column;gap:12px">
+    <div style="background-color: grey;flex:1;"><img style="width:100%;height:100%" src="photos/Category.png"/></div>
+    <div style="background-color: lime;flex:1;"><img style="width:100%;height:100%" src="photos/Category accessories.png"/></div>
+    
+    </div>
+    
+    <div class="blue"><img style="width:100%;height:100%" src="photos/Shoes_Category.png"/></div>
+    <div class="green" style="display: flex;flex-direction: column;gap:12px">
+        <div style="background-color: grey;flex:1;"><img style="width:100%;height:100%" src="photos/Category_T-shirts.png"/></div>
+        <div style="background-color: lime;flex:1;"><img style="width:100%;height:100%" src="photos/Category_trousers.png"/></div>
+    
+    </div>
+    <div></div>
+    
+    </div>
+    
+    <!--Koniec kategorii-->
+
+<!--Bestsellery-->
+
+<div class="categories_title" style="font-family:Marcellus;font-size:32px;font-weight:400;margin-left: 48px;margin-top:72px">Our bestsellers</div>
+
+<div class="yellow_background_container" style="Width:100%;height:817px;background-color: #FCE587;margin-top:24px;display:flex">
+
+<div class="bestseller_container_1" style="display:flex;flex-direction: column;margin-left: 48px;">
+
+<div class="photo_bestseller_1" style="margin-top:24px"><img class="image_bestseller_1" src="photos/Bestseller_photo_2.png"/></div>
+<div class="bestseller_h1_1" style="font-family:Marcellus;font-size:24px;font-weight:400;margin-top:24px">The most fashionable overalls</div>
+<div class="bestseller_paragraph_1" style="font-family:Exo;font-size:16px;font-weight:300;margin-top:16px">Dozens of models from famous designers in the most fashionable colors</div>
+<div class="button_bestseller" style="display:flex;width:55%;padding:12px 0px;justify-content:center;align-items:center;gap:10px;border-radius: 2px;border: 1px solid #0A0A0A;margin-top:24px">
+<div style="color:#0A0A0A;text-align: center;font-family: Exo;font-size: 24px;font-weight: 600;">See more</div>
+</div>
+</div>
+
+<div class="bestseller_container_2" style="display:flex;flex-direction: column;margin-left: 48px;">
+
+    
+    <div class="bestseller_h1_2" style="font-family:Marcellus;font-size:24px;font-weight:400;margin-top:24px">Stylish dresses</div>
+    <div class="bestseller_paragraph_2" style="font-family:Exo;font-size:16px;font-weight:300;margin-top:16px">Dozens of models from famous designers in the most fashionable colors</div>
+    <div class="button_bestseller" style="display:flex;width:55%;padding:12px 0px;justify-content:center;align-items:center;gap:10px;border-radius: 2px;border: 1px solid #0A0A0A;margin-top:24px">
+    <div style="color:#0A0A0A;text-align: center;font-family: Exo;font-size: 24px;font-weight: 600;">See more</div>
+    </div>
+    <div class="photo_bestseller_2" style="margin-top:24px"><img class="image_bestseller_2" src="photos/Bestseller_photo.png"/></div>
+    </div>
+
+</div>
+
+<!--Koniec bestsellerów-->
+
+<!--Newsletter-->
+
+<div class="categories_title" style="font-family:Marcellus;font-size:32px;font-weight:400;margin-top:72px;display:flex;width:100%;justify-content: center;">Newsletter</div>
+<div class="categories_paragraph" style="font-family:Exo;font-size:20px;font-weight:300;margin-top:24px;display:flex;width:100%;justify-content: center;">
+Do you want to stay up to date with our current offers? Sign up to our newsletter.  </div>
+
+<div class="newsletter_container" style="display: flex;flex-direction: column;justify-content: center;margin-top:48px;gap:12px;align-items: center;">
+
+<div class="input" style="display:flex;flex-direction: column;">
+<div class="email" style="font-family:Exo;font-size:16px;font-weight:400;">Email address</div>
+<div class="input" style="border: 1px solid #ACACAC;height:53px;width:447px"></div>
+</div>
+
+<div class="button_newsletter" style="height:53px;width:447px;display:flex;justify-content:center;align-items:center;border-radius: 2px;background: #0A0A0A;margin-top:22px">
+<div class="button_newsletter_name" style="color: #FFF;text-align: center;font-family: Exo;font-size: 24px;font-weight: 600;">Sign up</div>
+</div>
+
+<div class="newsletter_paragraph" style="display:flex;align-items: center;font-family:Exo;font-size:16px;font-weight:300;margin-bottom:24px"><p>
+By clicking the Sign up button, you accept our regulations and <u>privacy policy</u>.</p></div>
+
+</div>
+
+
+
+<!--Koniec newslettera-->
+
+<!--Footer-->
+
+
+
+<div style="height:1px;width:100%;background-color:#DFDFDF;"></div>
+
+<div class="footer" style="width:100%;display:flex;justify-content:flex-start !important;margin-top:48px;margin-bottom:48px;">
+
+
+<div class="container_footer_1" style="display:flex;flex-direction:column;margin-left: 36px">
+
+<div class="logo_footer"><img src="photos/Logo.png"/></div>
+
+<div style="height:24px"></div>
+
+<div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Phone number: +48 600 000 000</div>
+
+<div class="space_inner_footer" style="height:16px"></div>
+
+<div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Contact: +48 600 000 000</div>
+
+<div style="height:24px"></div>
+
+<div class="icons_footer_container" style="display:flex;">
+<div><img src="photos/Facebook.png"/></div>
+<div style="margin-left:16px"><img src="photos/Instagram.png"/></div>
+<div style="margin-left:16px"><img src="photos/TikTok.png"/></div>
+</div>
+
+</div>
+
+
+<div class="container_footer_2" style="display:flex;flex-direction:column;transform: translate(150%, 10px);">
+
+
+    <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Privacy Policy</div>
+    
+    <div class="space_inner_footer" style="height:32px"></div>
+    
+    <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Rules and regulations</div>
+    
+    <div class="space_inner_footer" style="height:32px"></div>
+    
+    <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">News</div>
+    
+    <div class="space_inner_footer" style="height:32px"></div>
+    
+    <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Shop</div>
+    
+
+    </div>
+
+    <div class="container_footer_3" style="display:flex;flex-direction:column;transform: translate(670%, 10px);">
+
+
+        <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">News</div>
+        
+        <div class="space_inner_footer" style="height:32px"></div>
+        
+        <div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Job offers</div>
+        
+    
+        </div>
+
+
+<div class="container_footer_4" style="display:flex;flex-direction:column;margin-left:980px">
+
+
+<div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:400;">Contact us:</div>
+            
+<div class="space_inner_footer" style="height:32px"></div>
+            
+<div class="footer_font" style="font-family:Exo;font-size:20px;font-weight:800;">kontakt@u24web.pl</div>
+            
+      
+</div>
+
+</div>
+
+
+
+<!--Footer end-->
+
+</body>
+</html>
